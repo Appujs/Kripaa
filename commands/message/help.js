@@ -57,10 +57,10 @@ module.exports = {
             }
 
             const embed = new EmbedBuilder()
-                .setTitle('📖 Ultimate Music Bot - Command List')
+                .setTitle('📖 Kripaa Music Bot - Command List')
                 .setColor(0x1DB954)
                 .setDescription(description)
-                .setFooter({ text: 'Developed by GlaceYT | https://glaceyt.com' })
+                .setFooter({ text: 'Developed by Appu_Das | https://akhileshmb.me' })
                 .setTimestamp();
 
             await message.reply({ embeds: [embed] });
